@@ -82,3 +82,9 @@
 .add-task-placeholder:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 478px) {
+  .board {
+    flex-direction: column;
+  }
+}
