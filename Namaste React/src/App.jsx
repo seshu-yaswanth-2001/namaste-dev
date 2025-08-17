@@ -1,6 +1,7 @@
 import Color from "./Color Name to hex Value/Color";
 import CopytoClipboard from "./CopytoClipboard";
 import Drag from "./drag and drop/Drag";
+import Dup from "./drag and drop/Dup";
 import FieldValidation from "./FieldValidation";
 import LeapYear from "./Leap/LeapYear";
 import FAQ from "./FAQ/FAQ";
@@ -13,10 +14,11 @@ const App = () => {
       {/* <CopytoClipboard />
       <FieldValidation /> */}
       {/* <Drag /> */}
+      <Dup />
       {/* <LeapYear /> */}
       {/* <Color /> */}
       {/* <FAQ /> */}
-      <Focus />
+      {/* <Focus /> */}
     </>
   );
 };

@@ -17,6 +17,7 @@ const Drag = () => {
   const handleDrop = (toColumn) => {
     if (!draggedItem) return;
 
+    
     if (draggedItem.fromColumn === toColumn) {
       setDraggedItem(null);
       return;
@@ -53,7 +54,7 @@ const Drag = () => {
   };
 
   return (
-    <div className="container">
+    <div className="divContainer">
       {Object.keys(columns).map((columnKey) => (
         <div
           key={columnKey}
