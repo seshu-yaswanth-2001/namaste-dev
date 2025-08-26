@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f5f5f5;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.social-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Individual platform colors */
+.facebook {
+  background-color: #3b5998;
+}
+
+.x {
+  background-color: #000000;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.telegram {
+  background-color: #0088cc;
+}
+
+.reddit {
+  background-color: #ff4500;
+}
+
+.email {
+  background-color: #7f7f7f;
+}
+
+.discord {
+  background-color: #5865f2;
+}
+
+.social-share {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.copy-link-container {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.copy-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.copy-link-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.link-icon {
+  font-size: 18px;
+  color: #555;
+}
+
+.copy-link-box input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.copy-link-box button {
+  background-color: #28a745;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.copy-link-box button:hover {
+  background-color: #218838;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}

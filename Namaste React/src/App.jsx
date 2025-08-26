@@ -5,14 +5,16 @@ import FieldValidation from "./FieldValidation";
 import LeapYear from "./Leap/LeapYear";
 import FAQ from "./FAQ/FAQ";
 import Focus from "./Focus Input/Focus";
-// import "./index.css";
+import Todo from "./todo/Todo";
+import SocialShare from "./Social Share/SocialShare";
 
 const App = () => {
   return (
     <>
       {/* <CopytoClipboard />
       <FieldValidation /> */}
-      <Drag />
+      {/* <Todo /> */}
+      <SocialShare />
       {/* <LeapYear /> */}
       {/* <Color /> */}
       {/* <FAQ /> */}
