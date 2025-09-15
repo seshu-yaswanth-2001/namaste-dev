@@ -9,7 +9,6 @@ import {
   FaDiscord,
   FaLink,
 } from "react-icons/fa";
-
 import "./social.css";
 
 const SocialShare = () => {
